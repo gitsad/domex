@@ -11,7 +11,8 @@ module.exports = function(grunt) {
         watch: {
             js: {
                 files: [
-                    'js/*.js'
+                    'js/*.js',
+                    'js/**/*.js'
                 ],
                 tasks: ['concat', 'ngAnnotate'],
                 options: {
@@ -42,7 +43,9 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: [
-                    'js/*.js'
+                    'js/app.js',
+                    'js/app.config.js',
+                    'js/**/*.js'
                 ],
                 dest: 'dest/js/app.js'
             }
