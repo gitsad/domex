@@ -1,0 +1,25 @@
+@import "../../css/variables";
+.main-panel {
+  width: 100%;
+  background-color: $blue;
+  height: 700px;
+  display: table;
+  .main-panel-container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    .main-panel-box {
+      display: inline-block;
+      padding: 5px 50px;
+      border: 3px solid $black;
+      text-align: center;
+      .main-panel-text {
+        font-family: $OswaldFont;
+        text-transform: uppercase;
+        .bigger-text {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}

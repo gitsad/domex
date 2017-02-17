@@ -1,0 +1,35 @@
+@import "../../css/variables";
+.navigation-container {
+  background-color: $white;
+  width: 100%;
+  &:after {
+    display: table;
+    content: '';
+    clear: both;
+  }
+  .navigation-links {
+    width: 700px;
+    float: right;
+    .one-navigate-link {
+      display: inline-block;
+      margin: 0 15px;
+      a {
+        padding: 20px 0;
+        width: 100%;
+        display: block;
+        height: inherit;
+        font-family: $OswaldFont;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-decoration: none;
+        color: $black;
+        border-bottom: 4px solid transparent;
+        transition: $sexyAnimation;
+        &:hover {
+          border-bottom: 4px solid $blue;
+          color: $blue;
+        }
+      }
+    }
+  }
+}

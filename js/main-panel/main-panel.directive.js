@@ -1,17 +1,20 @@
 /**
+ * Created by gitsad on 17.02.17.
+ */
+/**
  * Created by gitsad on 08.01.17.
  */
 (function () {
     app
-        .directive('navigationDomex', navigation);
+        .directive('mainPanelDomex', mainPanel);
 
-    function navigation() {
+    function mainPanel() {
 
         var directive = {
             link: link,
-            templateUrl: '/js/navigation/navigation.template.html',
+            templateUrl: '/js/main-panel/main-panel.template.html',
             restrict: 'EA',
-            controller: 'NavigationController',
+            controller: 'MainPanelController',
             scope: {
                 max: '='
             },
@@ -21,6 +24,7 @@
         return directive;
 
         function link(scope, element, attrs) {
+
         }
     }
 })();

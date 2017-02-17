@@ -1,17 +1,17 @@
 /**
- * Created by gitsad on 08.01.17.
+ * Created by gitsad on 17.02.17.
  */
 (function () {
     app
-        .directive('navigationDomex', navigation);
+        .directive('offerDomex', offer);
 
-    function navigation() {
+    function offer() {
 
         var directive = {
             link: link,
-            templateUrl: '/js/navigation/navigation.template.html',
+            templateUrl: '/js/offer/offer.template.html',
             restrict: 'EA',
-            controller: 'NavigationController',
+            controller: 'OfferController',
             scope: {
                 max: '='
             },
@@ -21,7 +21,7 @@
         return directive;
 
         function link(scope, element, attrs) {
+
         }
     }
 })();
-

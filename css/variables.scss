@@ -1,0 +1,69 @@
+//colors
+$white: #ffffff;
+$blue: #0099ff;
+$black: #252525;
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+  font-family: Lato;
+  src: url(./fonts/LATO-BLACK) format('truetype');
+}
+@font-face {
+  font-family: LatoBlackItalic;
+  src: url(./fonts/LATO-BLACKITALIC.TTF);
+}
+@font-face {
+  font-family: LatoBold;
+  src: url(./fonts/LATO-BOLD.TTF);
+}
+@font-face {
+  font-family: LatoBoldItalic;
+  src: url(./fonts/LATO-BOLDITALIC.TTF);
+}
+@font-face {
+  font-family: LatoHairline;
+  src: url(./fonts/LATO-HAIRLINE.TTF);
+}
+@font-face {
+  font-family: LatoHairlineItalic;
+  src: url(./fonts/LATO-HAIRLINEITALIC.TTF);
+}
+@font-face {
+  font-family: LatoItalic;
+  src: url(./fonts/LATO-ITALIC.TTF);
+}
+@font-face {
+  font-family: LatoLight;
+  src: url(./fonts/LATO-LIGHT.TTF);
+}
+@font-face {
+  font-family: LatoLightItalic;
+  src: url(./fonts/LATO-LIGHTITALIC.TTF);
+}
+@font-face {
+  font-family: LatoRegular;
+  src: url(./fonts/LATO-REGULAR.TTF);
+}
+@font-face {
+  font-family: OswaldBold;
+  src: url(./fonts/OSWALD-BOLD.TTF);
+  font-weight: 800;
+}
+@font-face {
+  font-family: OswaldLight;
+  src: url(./fonts/OSWALD-LIGHT.TTF);
+}
+@font-face {
+  font-family: OswaldRegular;
+  src: url(./fonts/OSWALD-REGULAR.TTF);
+}
+
+// fonts variables
+$OswaldFont: 'Oswald', sans-serif;
+$LatoFont: 'Lato', sans-serif;
+
+// animations
+$sexyAnimation: all .15s linear;

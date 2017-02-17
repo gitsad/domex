@@ -1,7 +1,5 @@
 @import "normalize";
-body {
-  background: #ffffff;
-}
-html {
-  
-}
+
+@import "../js/navigation/navigation";
+@import "../js/main-panel/main-panel";
+@import "../js/about/about";
