@@ -1,0 +1,22 @@
+@import "../../css/variables";
+.gallery {
+  .gallery-container {
+    width: 100%;
+    .load-more-photos {
+      text-align: center;
+      .load-button {
+        border: 0;
+        font-family: $OswaldFont;
+        background-color: transparent;
+        cursor: pointer;
+        span {
+          display: block;
+          text-transform: uppercase;
+          font-size: 14px;
+          color: $grey;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}

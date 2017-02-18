@@ -5,8 +5,11 @@
 (function () {
     app
         .controller('NavigationController', NavigationController);
-    function NavigationController() {
+    function NavigationController($location, $anchorScroll) {
         var vm = this;
-        vm.title = 'NavigationController';
+        vm.goToPlace = function (hash) {
+            $location.hash(hash);
+            $anchorScroll();
+        }
     }
 })();

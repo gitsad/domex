@@ -1,0 +1,71 @@
+@import "../../css/variables";
+.offer {
+  .offer-container {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    .offer-graphics {
+      width: 50%;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      background-color: $blue;
+      .offer-text {
+        font-family: $OswaldFont;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: bold;
+      }
+    }
+    .offer-information {
+      width: 50%;
+      display: table-cell;
+      padding: 100px 0;
+      .offer-title {
+        font-family: $OswaldFont;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        .bigger-text {
+          font-size: 32px;
+        }
+        .blue-text {
+          color: $blue;
+          font-size: 14px;
+        }
+      }
+      .offer-text {
+        padding: 10px 90px;
+        text-align: center;
+        font-family: $LatoFont;
+        p {
+          span {
+            margin: 10px 0;
+            display: block;
+          }
+        }
+      }
+      .offer-button-more {
+        text-align: center;
+        button {
+          color: $blue;
+          display: inline-block;
+          text-align: center;
+          padding: 10px 30px;
+          background-color: transparent;
+          border: 2px solid $blue;
+          outline: 0;
+          cursor: pointer;
+          font-family: $OswaldFont;
+          text-transform: uppercase;
+          transition: $sexyAnimation;
+          &:hover {
+            background-color: $blue;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

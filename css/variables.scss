@@ -2,6 +2,8 @@
 $white: #ffffff;
 $blue: #0099ff;
 $black: #252525;
+$grey: #898989;
+$blueWithOpacity: rgba(0, 153, 255, .8);
 
 //fonts
 @import url('https://fonts.googleapis.com/css?family=Oswald');
@@ -9,7 +11,7 @@ $black: #252525;
 
 @font-face {
   font-family: Lato;
-  src: url(./fonts/LATO-BLACK) format('truetype');
+  src: url(./fonts/LATO-BLACK.TTF) format('truetype');
 }
 @font-face {
   font-family: LatoBlackItalic;

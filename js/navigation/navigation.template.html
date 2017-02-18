@@ -1,25 +1,28 @@
 <div>
     <div class="navigation-container">
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
         <div class="navigation-links">
             <div class="one-navigate-link">
-                <a href="#about">
+                <button ng-click="vm.goToPlace('about')">
                     O firmie
-                </a>
+                </button>
             </div>
             <div class="one-navigate-link">
-                <a href="#offer">
+                <button ng-click="vm.goToPlace('offer')">
                     Nasza oferta
-                </a>
+                </button>
             </div>
             <div class="one-navigate-link">
-                <a href="#gallery">
+                <button ng-click="vm.goToPlace('gallery')">
                     Galeria
-                </a>
+                </button>
             </div>
             <div class="one-navigate-link">
-                <a href="#contact">
+                <button ng-click="vm.goToPlace('contact')">
                     Kontakt
-                </a>
+                </button>
             </div>
         </div>
     </div>
