@@ -44,6 +44,10 @@
           border-bottom: 4px solid $blue;
           color: $blue;
         }
+        &:focus {
+          border-bottom: 4px solid $blue;
+          color: $blue;
+        }
       }
     }
   }
