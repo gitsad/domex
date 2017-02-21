@@ -1,19 +1,19 @@
 /**
- * Created by gitsad on 18.02.17.
+ * Created by gitsad on 21.02.17.
  */
 (function () {
     app
-        .directive('oneGalleryPhotoDomex', oneGalleryPhoto);
+        .directive('oneOfferTileDomex', oneOfferTile);
 
-    function oneGalleryPhoto() {
+    function oneOfferTile() {
 
         var directive = {
             link: link,
-            templateUrl: '/js/one-gallery-photo/one-gallery-photo.template.html',
+            templateUrl: '/js/one-offer-tile/one-offer-tile.template.html',
             restrict: 'EA',
-            controller: 'OneGalleryPhotoController',
+            controller: 'OneOfferTileController',
             scope: {
-                max: '='
+                title: '@'
             },
             controllerAs: 'vm',
             bindToController: true
@@ -21,6 +21,7 @@
         return directive;
 
         function link(scope, element, attrs) {
+            scope.title = attrs.title;
         }
     }
 })();

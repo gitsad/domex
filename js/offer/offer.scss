@@ -48,7 +48,7 @@
       }
       .offer-button-more {
         text-align: center;
-        button {
+        a {
           color: $blue;
           display: inline-block;
           text-align: center;
@@ -60,6 +60,7 @@
           font-family: $OswaldFont;
           text-transform: uppercase;
           transition: $sexyAnimation;
+          text-decoration: none;
           &:hover {
             background-color: $blue;
             color: $white;

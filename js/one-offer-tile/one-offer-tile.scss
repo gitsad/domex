@@ -1,0 +1,69 @@
+@import "../../css/variables";
+.one-tile {
+  position: relative;
+  float: left;
+  width: 33.3%;
+  height: auto;
+  overflow: hidden;
+  margin: 0;
+  transition: $sexyAnimation;
+  &:hover {
+    .text-container {
+      background-color: $blueWithOpacity;
+      .box {
+        button {
+          border-color: $white;
+          color: $white;
+        }
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    table-layout: fixed;
+    vertical-align: middle;
+    transition: $sexyAnimation;
+    .box {
+      display: inline-block;
+      height: 100%;
+      padding-top: 100px;
+      .text {
+        margin-bottom: 40px;
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: $OswaldFont;
+        padding: 0 50px;
+      }
+      button {
+        border: 2px solid $blue;
+        text-align: center;
+        background-color: transparent;
+        color: $blue;
+        text-transform: uppercase;
+        width: 193px;
+        height: 48px;
+        font-family: $OswaldFont;
+        cursor: pointer;
+        transition: $sexyAnimation;
+        &:hover {
+          background-color: $white;
+          color: $blue;
+        }
+      }
+    }
+  }
+}
