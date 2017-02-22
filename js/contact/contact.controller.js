@@ -6,5 +6,6 @@
         .controller('ContactController', ContactController);
     function ContactController() {
         var vm = this;
+        sr.reveal('.contact-animate', { duration: 500 });
     }
 })();

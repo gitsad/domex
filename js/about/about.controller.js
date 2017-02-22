@@ -6,5 +6,6 @@
         .controller('AboutController', AboutController);
     function AboutController() {
         var vm = this;
+        sr.reveal('.about-animate', { duration: 500 });
     }
 })();

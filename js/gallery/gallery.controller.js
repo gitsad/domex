@@ -6,5 +6,6 @@
         .controller('GalleryController', GalleryController);
     function GalleryController() {
         var vm = this;
+        sr.reveal('.one-gallery-photo-animate', { duration: 500 }, 100);
     }
 })();

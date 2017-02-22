@@ -6,5 +6,7 @@
         .controller('OfferController', OfferController);
     function OfferController() {
         var vm = this;
+        sr.reveal('.offer-animate', { duration: 500 });
+
     }
 })();
