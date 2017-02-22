@@ -2,19 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e02e8d02-7cab-4c3b-9c7b-2a3fa3b35a43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/footer/footer.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/footer/footer.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/footer/footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/footer/footer.template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/navigation/navigation.service.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/logocopy-2.png" afterPath="$PROJECT_DIR$/img/logogrey.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/018d278ec9631c6574631bc628fe6e7a77b2074e/navigation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/018d278ec9631c6574631bc628fe6e7a77b2074e/navigation.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contact/contact.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contact/contact.directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contact/contact.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contact/contact.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/4fa7a14d376dbace5eae2aa8a3b2935b1996cdbd/one-offer-tile.scssc" afterPath="$PROJECT_DIR$/.sass-cache/4fa7a14d376dbace5eae2aa8a3b2935b1996cdbd/one-offer-tile.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bb18b267aeeb797fa8c553a3295c057155271b55/footer.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bb18b267aeeb797fa8c553a3295c057155271b55/footer.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fa2ee96b7d12c3b4f32ee33476d9f4f4a1213bad/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fa2ee96b7d12c3b4f32ee33476d9f4f4a1213bad/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fa2ee96b7d12c3b4f32ee33476d9f4f4a1213bad/offer-page.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fa2ee96b7d12c3b4f32ee33476d9f4f4a1213bad/offer-page.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/offer-page.scss" afterPath="$PROJECT_DIR$/css/offer-page.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/footer/footer.scss" afterPath="$PROJECT_DIR$/js/footer/footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/footer/footer.template.html" afterPath="$PROJECT_DIR$/js/footer/footer.template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/navigation/navigation.controller.js" afterPath="$PROJECT_DIR$/js/navigation/navigation.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/navigation/navigation.scss" afterPath="$PROJECT_DIR$/js/navigation/navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/navigation/navigation.template.html" afterPath="$PROJECT_DIR$/js/navigation/navigation.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.controller.js" afterPath="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss" afterPath="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html" afterPath="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="domex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,231 +44,115 @@
     <favorites_list name="domex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="offer.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/offer.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="offer-page.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/offer-page.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="normalize.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/normalize.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="460" column="1" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/variables.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/main.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navigation.controller.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/navigation/navigation.controller.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navigation.template.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/navigation/navigation.template.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navigation.directive.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/navigation/navigation.directive.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="one-offer-tile.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="one-offer-tile.template.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="one-gallery-photo.controller.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.controller.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="9" column="5" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.controller.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/footer/footer.controller.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.template.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/footer/footer.template.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.directive.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/footer/footer.directive.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="one-gallery-photo.directive.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.directive.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navigation.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/navigation/navigation.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="864">
-                  <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navigation.service.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/navigation/navigation.service.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="5" column="35" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/footer/footer.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="one-offer-tile.template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.directive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/footer/footer.directive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/contact/contact.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.directive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/contact/contact.directive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/contact/contact.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+              <folding>
+                <element signature="e#954#960#0" expanded="true" />
+                <element signature="e#1759#1765#0" expanded="true" />
+                <element signature="e#2519#2525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one-offer-tile.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.template.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/navigation/navigation.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offer.template.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/offer/offer.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="53" column="33" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -270,10 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scss/main.scss" />
-        <option value="$PROJECT_DIR$/css/normlalize.scss" />
-        <option value="$PROJECT_DIR$/dest/js/app.js" />
-        <option value="$PROJECT_DIR$/dest/js/app.annotated.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/main-panel/main-panel.directive.js" />
         <option value="$PROJECT_DIR$/js/main-panel/main-panel.controller.js" />
@@ -293,10 +181,7 @@
         <option value="$PROJECT_DIR$/js/gallery/gallery.scss" />
         <option value="$PROJECT_DIR$/js/app.config.js" />
         <option value="$PROJECT_DIR$/js/gallery/gallery.template.html" />
-        <option value="$PROJECT_DIR$/js/navigation/navigation.template.html" />
-        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/js/offer/offer.template.html" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/main-panel/main-panel.template.html" />
         <option value="$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.template.html" />
         <option value="$PROJECT_DIR$/js/about/about.template.html" />
@@ -304,22 +189,30 @@
         <option value="$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.scss" />
         <option value="$PROJECT_DIR$/js/offer/offer.scss" />
         <option value="$PROJECT_DIR$/js/one-offer-tile/one-tile-offer.template.html" />
-        <option value="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.controller.js" />
         <option value="$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.directive.js" />
         <option value="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.directive.js" />
         <option value="$PROJECT_DIR$/offer.html" />
-        <option value="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss" />
-        <option value="$PROJECT_DIR$/css/offer-page.scss" />
-        <option value="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html" />
         <option value="$PROJECT_DIR$/js/navigation/navigation.scss" />
         <option value="$PROJECT_DIR$/js/navigation/navigation.service.js" />
-        <option value="$PROJECT_DIR$/js/navigation/navigation.controller.js" />
-        <option value="$PROJECT_DIR$/js/footer/footer.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/footer/footer.directive.js" />
         <option value="$PROJECT_DIR$/js/footer/footer.controller.js" />
         <option value="$PROJECT_DIR$/js/footer/footer.template.html" />
+        <option value="$PROJECT_DIR$/js/footer/footer.scss" />
+        <option value="$PROJECT_DIR$/js/contact/contact.controller.js" />
+        <option value="$PROJECT_DIR$/js/contact/contact.directive.js" />
+        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/js/navigation/navigation.controller.js" />
+        <option value="$PROJECT_DIR$/css/offer-page.scss" />
+        <option value="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.controller.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/js/contact/contact.template.html" />
+        <option value="$PROJECT_DIR$/js/contact/contact.scss" />
+        <option value="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html" />
+        <option value="$PROJECT_DIR$/dest/css/main.css" />
+        <option value="$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss" />
+        <option value="$PROJECT_DIR$/js/navigation/navigation.template.html" />
       </list>
     </option>
   </component>
@@ -364,7 +257,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -447,6 +339,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="offer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="navigation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -479,12 +389,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -577,12 +506,13 @@
       <workItem from="1487516084519" duration="172000" />
       <workItem from="1487529780929" duration="608000" />
       <workItem from="1487671150007" duration="9468000" />
-      <workItem from="1487686123306" duration="1854000" />
+      <workItem from="1487686123306" duration="3116000" />
+      <workItem from="1487711794869" duration="9679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50321000" />
+    <option name="totallyTimeSpent" value="61262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -648,42 +578,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dest/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/navigation/navigation.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/navigation/navigation.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -776,20 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/offer/offer.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/gallery/gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -809,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,17 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,41 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/offer-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,9 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,39 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/navigation/navigation.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/footer/footer.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,34 +799,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/footer/footer.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/footer/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="576">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/navigation/navigation.template.html">
+    <entry file="file://$PROJECT_DIR$/js/footer/footer.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact/contact.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/one-gallery-photo/one-gallery-photo.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/navigation/navigation.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact/contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1966">
+          <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1038,10 +877,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/js/footer/footer.template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/offer-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact/contact.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+          <folding>
+            <element signature="e#954#960#0" expanded="true" />
+            <element signature="e#1759#1765#0" expanded="true" />
+            <element signature="e#2519#2525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dest/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3704">
+          <caret line="1290" column="18" selection-start-line="1290" selection-start-column="18" selection-end-line="1290" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact/contact.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/one-offer-tile/one-offer-tile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/offer/offer.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/navigation/navigation.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
       </provider>

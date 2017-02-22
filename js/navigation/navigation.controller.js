@@ -5,7 +5,7 @@
 (function () {
     app
         .controller('NavigationController', NavigationController);
-    function NavigationController(navigationService) {
+    function NavigationController(navigationService, $window) {
         var vm = this;
         vm.goToPlace = function (hash) {
             navigationService.scrollTo(hash);

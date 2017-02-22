@@ -6,5 +6,9 @@
         .controller('OneOfferTileController', OneOfferTileController);
     function OneOfferTileController() {
         var vm = this;
+        vm.visible = false;
+        vm.switchVisible = function () {
+            vm.visible = !vm.visible;
+        }
     }
 })();

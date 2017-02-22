@@ -4,8 +4,38 @@
   .footer-container {
     width: 80%;
     margin: 0 auto;
-    .all-rights-reserved {
+    display: table;
+    height: 126px;
+    padding-bottom: 56px;
+    &:after {
+      display: table;
+      content: "";
+      clear: both;
+    }
+    .blue-text {
+      color: $blue !important;
 
+    }
+    .all-rights-reserved {
+      vertical-align: bottom;
+      display: table-cell;
+      span {
+        font-family: $OswaldFont;
+        color: $grey;
+      }
+    }
+    .footer-logo {
+      vertical-align: bottom;
+      text-align: right;
+      display: table-cell;
+      img {
+        display: inline-block;
+        margin-bottom: 16px;
+      }
+      span {
+        font-family: $OswaldFont;
+        color: $grey;
+      }
     }
   }
 }

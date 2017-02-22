@@ -1,0 +1,143 @@
+@import "../../css/variables";
+.contact {
+  .contact-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 84px;
+    padding-top: 106px;
+    &:after {
+      display: table;
+      content: "";
+      clear: both;
+    }
+    .title {
+      text-align: center;
+      h2 {
+        font-size: 40px;
+      }
+      h2, .little-title {
+        font-family: $OswaldFont;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      .little-title {
+        font-size: 18px;
+        color: $blue;
+        display: block;
+      }
+      .description {
+        display: block;
+        padding-top: 42px;
+        font-family: $LatoFont;
+        font-size: 16px;
+        text-align: center;
+        .bold {
+          font-weight: bold;
+        }
+      }
+    }
+    .contact-content {
+      padding-top: 55px;
+      .information {
+        float: left;
+        width: 40%;
+        .one-information {
+          margin-bottom: 30px;
+          .information-title {
+            width: 100%;
+            .title {
+              float: left;
+              width: 80%;
+              text-align: right;
+              font-size: 14px;
+              color: $grey;
+              font-family: $LatoFont;
+              padding-right: 20px;
+              box-sizing: border-box;
+            }
+            .help-div {
+              width: 20%;
+              float: right;
+            }
+          }
+          .information-content {
+            display: table;
+            table-layout: fixed;
+            width: 100%;
+            .mobile {
+              font-size: 32px;
+            }
+            .mail {
+              font-size: 23px;
+            }
+            .place {
+              font-size: 22px;
+            }
+            .content {
+              font-family: $OswaldFont;
+              width: 80%;
+              text-align: right;
+              display: table-cell;
+              vertical-align: top;
+              padding-right: 20px;
+              span {
+                display: inline-block;
+                width: 100%;
+              }
+            }
+            .image {
+              width: 20%;
+              display: table-cell;
+              vertical-align: top;
+            }
+          }
+        }
+      }
+      .form {
+        float: right;
+        width: 60%;
+        input {
+          width: 100%;
+          display: block;
+          height: 43px;
+          margin-bottom: 17px;
+          background-color: #ffffff;
+          border: solid 1px #bebdbc;
+          text-align: center;
+          font-family: $LatoFont;
+        }
+        textarea {
+          width: 100%;
+          display: block;
+          background-color: #ffffff;
+          border: solid 1px #bebdbc;
+          text-align: center;
+          font-family: $LatoFont;
+          resize: none;
+          padding-top: 15px;
+        }
+        .submit-button {
+          text-align: center;
+          margin-top: 43px;
+          button {
+            cursor: pointer;
+            text-transform: uppercase;
+            font-family: $OswaldFont;
+            font-size: 18px;
+            text-align: center;
+            color: $blue;
+            width: 249px;
+            height: 48px;
+            background-color: transparent;
+            border: solid 2px $blue;
+            transition: $sexyAnimation;
+            &:hover {
+              background-color: $blue;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
