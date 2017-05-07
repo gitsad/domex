@@ -1,11 +1,21 @@
-<div>
+<div class="navigation">
     <div class="navigation-container">
-        <div class="logo">
+        <div class="logo-container" ng-class="{logo: scroll}">
             <a href="#!/">
-                <img src="./img/logo.png" alt="">
+                <img ng-class="{smaller: scroll}" src="./img/logo.png" alt="">
             </a>
         </div>
-        <div class="navigation-links">
+        <div class="hamburger-container">
+            <div class="hamburger" ng-class="{open: vm.isOpenMenu}" ng-click="vm.openMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navigation-links" ng-class="{hide: !vm.isOpenMenu, show: vm.isOpenMenu}">
             <div class="one-navigate-link">
                 <button ng-click="vm.goToPlace('about')">
                     O firmie

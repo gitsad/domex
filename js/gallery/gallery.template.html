@@ -1,11 +1,15 @@
 <div class="gallery">
     <div class="gallery-container">
-        <one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex><one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex><one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex><one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex>
-        <one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex><one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex><one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex><one-gallery-photo-domex class="one-gallery-photo-animate"></one-gallery-photo-domex>
+        <div class="one-gallery-photo-container one-gallery-photo-animate" ng-repeat="photo in vm.photos  | limitTo: vm.limitNumber track by $index">
+            <one-gallery-photo-domex
+                    path={{photo}}
+            ></one-gallery-photo-domex>
+        </div>
         <div class="load-more-photos">
-            <button class="load-button">
-                <span>Załaduj więcej zdjęć</span>
-                <img src="./img/arrow-down.png" alt="">
+            <button class="load-button" ng-click="vm.expandListOfPhotos()">
+                <span ng-if="!vm.isExpanded">Załaduj więcej zdjęć</span>
+                <span ng-if="vm.isExpanded">Schowaj</span>
+                <img ng-class="{rotate: vm.isExpanded}" src="./img/arrow-down.png" alt="">
             </button>
         </div>
     </div>

@@ -1,8 +1,25 @@
 @import "../../css/variables";
+.rotate {
+  transform: rotate(180deg);
+  transition: all 1s linear;
+}
 .gallery {
   .gallery-container {
     width: 100%;
+    @include flexbox();
+    @include flex-wrap(wrap);
+    .one-gallery-photo-container {
+      max-width: 25%;
+      @include flex-grow(1);
+      @include breakpoint($smallerDesktop) {
+        max-width: 33.3%;
+      }
+      @include breakpoint($mobile) {
+        max-width: 50%;
+      }
+    }
     .load-more-photos {
+      width: 100%;
       text-align: center;
       .load-button {
         border: 0;

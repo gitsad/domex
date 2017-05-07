@@ -13,7 +13,8 @@
             restrict: 'EA',
             controller: 'OneGalleryPhotoController',
             scope: {
-                max: '='
+                max: '=',
+                path: '@'
             },
             controllerAs: 'vm',
             bindToController: true
@@ -21,6 +22,7 @@
         return directive;
 
         function link(scope, element, attrs) {
+            scope.path = attrs.path;
         }
     }
 })();

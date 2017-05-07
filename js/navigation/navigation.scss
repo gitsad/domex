@@ -1,52 +1,139 @@
 @import "../../css/variables";
-.navigation-container {
+@import "hamburger";
+.hide {
+  @include breakpoint($mobile) {
+    max-height: 0 !important;
+    transition: all 0.15s linear;
+  }
+}
+.show {
+  @include breakpoint($mobile) {
+    max-height: 5*70px;
+    transition: all 0.15s linear;
+  }
+}
+.navigation {
+  $navigationHeight: 62px;
+  position: fixed;
+  width: 100%;
   background-color: $white;
-  width: 80%;
-  position: relative;
-  margin: 0 auto;
-  &:after {
-    display: table;
-    content: '';
-    clear: both;
-  }
-  .logo {
-    float: left;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 200px;
-    top: 44px;
-  }
-  .navigation-links {
-    float: right;
-    .one-navigate-link {
-      display: inline-block;
-      margin: 0 15px;
-      button {
-        background-color: transparent;
-        padding: 20px 0;
-        width: 100%;
-        display: block;
-        height: inherit;
-        font-family: $OswaldFont;
-        text-transform: uppercase;
-        font-weight: bold;
-        text-decoration: none;
-        color: $black;
-        border-top: 0;
-        border-right: 0;
-        border-left: 0;
-        outline: 0;
-        cursor: pointer;
-        border-bottom: 4px solid transparent;
-        transition: $sexyAnimation;
-        &:hover {
-          border-bottom: 4px solid $blue;
-          color: $blue;
+  z-index: 999;
+  height: $navigationHeight;
+  .navigation-container {
+    width: 80%;
+    margin: 0 auto;
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include breakpoint($mobile) {
+      width: 100%;
+    }
+    .logo-container {
+      width: 50%;
+      position: relative;
+      @include flexbox();
+      @include breakpoint($mobile) {
+        height: $navigationHeight;
+        @include align-items(center);
+      };
+      img {
+        @include breakpoint($mobile) {
+          height: 50px;
+          margin-left: 10px;
         }
-        &:focus {
-          border-bottom: 4px solid $blue;
-          color: $blue;
+      }
+    }
+    .smaller-add, .smaller-remove {
+      transition: all .2s linear;
+    }
+    .smaller,
+    .smaller-add.smaller-add-active {
+      @include breakpoint($desktop) {
+        transform: scale(.4);
+        transform-origin: center;
+      }
+    }
+
+    .smaller-remove.smaller-remove-active {
+      @include breakpoint($desktop) {
+        transform-origin: center;
+        transform: scale(1);
+      }
+    }
+    .smaller {
+      @include flexbox();
+      @include align-items(flex-start);
+      @include justify-content(flex-start);
+      top: auto !important;
+      left: auto !important;
+      position: relative;
+    }
+    .logo-add, .logo-remove {
+      transition: all .2s linear;
+    }
+    .logo,
+    .logo-add.logo-add-active {
+      @include breakpoint($desktop) {
+        margin-top: -30px;
+      }
+    }
+
+    .logo-remove.logo-remove-active {
+      @include breakpoint($desktop) {
+        margin-top: auto;
+      }
+    }
+    .navigation-links {
+      @include flexbox();
+      @include justify-content(flex-end);
+      width: 50%;
+      height: $navigationHeight;
+      overflow: hidden;
+      @include breakpoint($mobile) {
+        width: 100%;
+        @include flex-direction(column);
+        height: auto;
+      }
+      .one-navigate-link {
+        display: inline-block;
+        margin: 0 15px;
+        height: inherit;
+        @include breakpoint($mobile) {
+          margin: 0;
+        }
+        button {
+          $borderHeight: 4px;
+          @include flexbox();
+          height: inherit;
+          background-color: transparent;
+          width: 100%;
+          display: block;
+          font-family: $OswaldFont;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-decoration: none;
+          color: $black;
+          border-top: 0;
+          border-right: 0;
+          border-left: 0;
+          outline: 0;
+          cursor: pointer;
+          border-bottom: $borderHeight solid transparent;
+          transition: $sexyAnimation;
+          &:hover {
+            border-bottom: 4px solid $blue;
+            color: $blue;
+          }
+          &:focus {
+            border-bottom: 4px solid $blue;
+            color: $blue;
+          }
+          @include breakpoint($desktopAndMobile) {
+            font-size: 14px;
+          }
+          @include breakpoint($mobile) {
+            height: 70px;
+            background-color: $white;
+          }
         }
       }
     }

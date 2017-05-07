@@ -2,22 +2,33 @@
 .main-panel {
   width: 100%;
   background-color: lighten($black, 50%);
-  height: 700px;
-  display: table;
+  min-height: 700px;
+  height: 100vh;
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(center);
   .main-panel-container {
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+    display: inline-block;
     .main-panel-box {
       display: inline-block;
       padding: 5px 50px;
       border: 3px solid $black;
       text-align: center;
+      @include breakpoint($mobile) {
+        padding: 5px 30px;
+      }
       .main-panel-text {
         font-family: $OswaldFont;
         text-transform: uppercase;
+        @include breakpoint($mobile) {
+          font-size: 18px;
+        }
         .bigger-text {
           font-size: 40px;
+          @include breakpoint($mobile) {
+            font-size: 20px;
+          }
         }
       }
     }

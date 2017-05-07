@@ -128,3 +128,13 @@
 .modal-from-tile.ng-leave.ng-leave-active {
   opacity:0;
 }
+
+.photos-modal-container {
+  @include flexbox();
+  @include flex-wrap(wrap);
+  max-height: 530px;
+  overflow: auto;
+  .one-photo-modal {
+    width: 25%;
+  }
+}

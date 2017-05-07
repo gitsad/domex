@@ -1,8 +1,20 @@
 <div class="one-gallery-photo">
-    <img src="http://placehold.it/350x350" alt="">
+    <img src={{path}} alt="">
     <div class="hidden-panel">
-        <button class="look-button">
+        <button class="look-button" ng-click="vm.switchVisible()">
             Zobacz zdjęcie
         </button>
+    </div>
+</div>
+<div class="gallery-modal" ng-if="vm.visibleGalleryPhoto">
+    <div class="gallery-modal-photo">
+        <div class="photo">
+            <img src={{path}} alt="">
+            <div class="close-modal">
+                <button ng-click="vm.switchVisible()">
+                    <img src="./img/close.png" alt="">
+                </button>
+            </div>
+        </div>
     </div>
 </div>

@@ -15,19 +15,15 @@
     <div class="modal-content">
         <h1>{{title}}</h1>
         <p>
-            <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam dicta eligendi incidunt
-            ipsa iusto laboriosam laborum libero non, odit perferendis porro praesentium quam rem rerum soluta suscipit vel voluptates.
-            </span>
-            <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam dicta eligendi incidunt
-            ipsa iusto laboriosam laborum libero non, odit perferendis porro praesentium quam rem rerum soluta suscipit vel voluptates.
-            </span>
-            <span>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam dicta eligendi incidunt
-            ipsa iusto laboriosam laborum libero non, odit perferendis porro praesentium quam rem rerum soluta suscipit vel voluptates.
-            </span>
+           {{text}}
         </p>
+        <div  class="photos-modal-container">
+            <div class="one-photo-modal" ng-repeat="photo in photos track by $index">
+                <one-gallery-photo-domex
+                        path={{photo}}
+                ></one-gallery-photo-domex>
+            </div>
+        </div>
         <div class="close-modal">
             <button ng-click="vm.switchVisible()">
                 <img src="./img/close.png" alt="">

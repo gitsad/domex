@@ -1,27 +1,55 @@
 @import "../../css/variables";
 .offer {
   .offer-container {
-    display: table;
-    table-layout: fixed;
+    @include flexbox();
+    @include flex-wrap(wrap);
     width: 100%;
     .offer-graphics {
       width: 50%;
-      display: table-cell;
-      text-align: center;
-      vertical-align: middle;
-      background-color: $blue;
+      @include flexbox();
+      @include justify-content(center);
+      @include align-items(center);
+      background-image: url("../../img/house.jpg");
+      background-origin: border-box;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      @include breakpoint($desktopAndMobile) {
+        width: 100%;
+      }
       .offer-text {
         font-family: $OswaldFont;
         text-transform: uppercase;
         font-size: 30px;
         line-height: 40px;
         font-weight: bold;
+        z-index: 3;
+        position: relative;
+        text-align: center;
+        @include breakpoint($desktopAndMobile) {
+          padding: 30px 10px;
+        }
+      }
+      .blue-background-opacity {
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $blue;
+        z-index: 2;
+        opacity: .8;
       }
     }
     .offer-information {
       width: 50%;
-      display: table-cell;
+      @include flexbox();
+      @include flex-direction(column);
       padding: 100px 0;
+      @include breakpoint($desktopAndMobile) {
+        width: 100%;
+      }
       .offer-title {
         font-family: $OswaldFont;
         font-size: 20px;

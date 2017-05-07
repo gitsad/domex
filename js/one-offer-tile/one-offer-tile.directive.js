@@ -13,7 +13,9 @@
             restrict: 'EA',
             controller: 'OneOfferTileController',
             scope: {
-                title: '@'
+                title: '@',
+                text: '@',
+                photos: '@'
             },
             controllerAs: 'vm',
             bindToController: true
@@ -22,6 +24,8 @@
 
         function link(scope, element, attrs) {
             scope.title = attrs.title;
+            scope.text = attrs.text;
+            scope.photos = attrs.photos.split(",")
         }
     }
 })();
