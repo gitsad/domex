@@ -75,6 +75,7 @@ $desktopAndMobile: max-width 1024px;
 $desktop: min-width 768px;
 $mobile: max-width 768px;
 $smallerDesktop: 768px 1024px;
+$mediumDesktop: max-width 1440px;
 
 // mixins
 @import "breakpoint/breakpoint";

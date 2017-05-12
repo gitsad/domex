@@ -2,8 +2,17 @@
 .offer-page-container {
   width: 70%;
   margin: 0 auto;
+  @include breakpoint($mediumDesktop) {
+    width: 90%;
+  }
+  @include breakpoint($mobile) {
+    width: 100%;
+  }
   .offer-page-description {
     padding-top: 200px;
+    @include breakpoint($mobile) {
+      padding-top: 100px;
+    }
     .title {
       font-family: $OswaldFont;
       text-align: center;
@@ -22,16 +31,19 @@
     .text {
       font-family: $LatoFont;
       text-align: center;
+      @include breakpoint($mobile) {
+        font-size: 20px;
+      }
     }
   }
   .offer-page-tiles {
     padding: 50px 0;
-    .one-line {
-      &:after {
-        display: table;
-        content: "";
-        clear: both;
-      }
+    @include flexbox();
+    @include flex-wrap(wrap);
+    @include justify-content(center);
+    @include breakpoint($mobile) {
+      padding: 0;
+      @include flex-direction(column);
     }
   }
 }

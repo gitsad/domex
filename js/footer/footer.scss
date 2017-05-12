@@ -4,32 +4,37 @@
   .footer-container {
     width: 80%;
     margin: 0 auto;
-    display: table;
     height: 126px;
     padding-bottom: 56px;
-    &:after {
-      display: table;
-      content: "";
-      clear: both;
+    @include flexbox();
+    @include align-items(flex-end);
+    @include justify-content(space-between);
+    @include breakpoint($mobile) {
+      padding-top: 40px;
+      @include flex-direction(column-reverse);
+      @include align-items(center);
+      @include justify-content(center);
     }
     .blue-text {
       color: $blue !important;
-
     }
     .all-rights-reserved {
-      vertical-align: bottom;
-      display: table-cell;
       span {
         font-family: $OswaldFont;
         color: $grey;
       }
     }
     .footer-logo {
-      vertical-align: bottom;
-      text-align: right;
-      display: table-cell;
+      @include flexbox();
+      @include flex-direction(column);
+      @include justify-content(flex-end);
+      @include align-items(flex-end);
+      @include breakpoint($mobile) {
+        @include align-items(center);
+        @include justify-content(center);
+      }
       img {
-        display: inline-block;
+        width: 99px;
         margin-bottom: 16px;
       }
       span {

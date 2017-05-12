@@ -15,7 +15,8 @@
             scope: {
                 title: '@',
                 text: '@',
-                photos: '@'
+                photos: '@',
+                tilephoto: '@'
             },
             controllerAs: 'vm',
             bindToController: true
@@ -25,6 +26,7 @@
         function link(scope, element, attrs) {
             scope.title = attrs.title;
             scope.text = attrs.text;
+            scope.tilephoto = attrs.tilephoto;
             scope.photos = attrs.photos.split(",")
         }
     }

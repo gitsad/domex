@@ -5,6 +5,9 @@
     margin: 0 auto;
     padding-bottom: 84px;
     padding-top: 106px;
+    @include breakpoint($mediumDesktop) {
+      width: 90%;
+    }
     &:after {
       display: table;
       content: "";
@@ -38,9 +41,16 @@
     }
     .contact-content {
       padding-top: 55px;
+      @include flexbox();
+      @include flex-wrap(wrap);
+      @include breakpoint($desktopAndMobile) {
+        @include flex-direction(column-reverse);
+      }
       .information {
-        float: left;
         width: 40%;
+        @include breakpoint($desktopAndMobile) {
+          width: 100%;
+        }
         .one-information {
           margin-bottom: 30px;
           .information-title {
@@ -69,6 +79,9 @@
             }
             .mail {
               font-size: 23px;
+              @include breakpoint($desktopAndMobile) {
+                font-size: 18px;
+              }
             }
             .place {
               font-size: 22px;
@@ -94,8 +107,11 @@
         }
       }
       .form {
-        float: right;
         width: 60%;
+        @include breakpoint($desktopAndMobile) {
+          width: 100%;
+          margin-bottom: 30px;
+        }
         input {
           width: 100%;
           display: block;
